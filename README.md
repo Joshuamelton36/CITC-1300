@@ -5,4 +5,5 @@
     <li><a href="intro_to_CSS/index.html" target="_blank">Into to CSS</a></li>
     <li><a href="Advanced_CSS/index.html" target="_blank">Advanced CSS</a></li>
     <li><a href="Responsive/index.html" target="_blank">Responsive</a></li>
+    <li><a href="FInal_Project/Home.html" target="_blank">Finale</a></li>
 </ul>

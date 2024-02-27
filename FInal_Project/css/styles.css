@@ -1,9 +1,115 @@
 /* Global */
 
 body {
-    background-color: rgb(18, 144, 18);
+    background-image: url('../images/HxH.png');
+    background-size: cover;
+    background-position: center;
 }
 
+
+nav a:hover {
+    color: rgb(255, 34, 0)
+}
+
+hr {
+    width: 100%;
+}
+.col img { 
+    display: block;
+    margin: 0 auto;
+    /*100% of the screen in question*/
+    width: 50%
+}
+
+
+#container {
+    text-align: center;
+    background-color: white;
+    margin: 0px auto;
+    border: 5px solid rgb(0, 0, 127);
+    border-radius: 10px;
+}
+#container img{
+    width:50%;
+}
+
+
+#upper img {
+    width: 80%;
+    margin: 10px auto;
+    height: 40%;
+}
+#upper ul {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.col ul {
+    list-style: none;
+}
+
+.col a{
+    text-align: center;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    margin: 0px auto;
+    background-color: orange;
+    width: 90%;
+    line-height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+h1, h2, h3 {
+    color: rgb(255, 34, 0);
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    text-shadow:  1px 1px 3px orange;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+
+/* Mobile Style */
+.banner img {
+    width: 70%;
+    height: 15%;
+    display: block;
+    margin: 0 auto;
+
+}
+header{
+    background-color: rgb(139, 234, 139);
+    width: 95%;
+    margin: 10px auto;
+}
+
+header h1{
+    padding-top: 10px;
+    color: rgb(255, 34, 0);
+    text-shadow:  2px 2px 4px orange
+}
 nav {
 
     color: black;
@@ -12,68 +118,214 @@ nav {
 }
 
 nav ul {
-
     list-style-type: none;
     padding: 0;
     text-align: center;
 }
 nav li{
-   
-    display:inline-block
-    }
-.col img { 
-    display: block;
-    margin: 0 auto;
-    /*100% of the screen in question*/
-    width: 50%
+    background-color: rgb(255, 192, 74);
+    padding: 10px;
+    margin: 5px auto;
+    width: 90%;
 }
 
-.banner img {
-    width: 70%;
-    height: 400px;
-    display: block;
-    margin: 0 auto;
-
+nav a {
+    font-size: 20px;
+    color: rgb(26, 158, 79);
+    text-decoration: none;
+    font-weight: bold;
 }
+#container {
+    width: 80%
+}
+
+#upper{
+    padding: 10px;
+    display: inline-block;
+    width: 90%;
+}
+#upper p{
+    font-size: 15px;
+}
+
+#upper h2 {
+    font-size: 25px;
+}
+
+#upper h3 {
+    font-size: 20px;
+    color: orange;
+}
+#lower {
+    background-color: white;
+     margin: 0px auto;
+     width: 95%;
+ }
+ 
+ .col{
+     font-size: 18px;
+     padding: 5px;
+     margin: 5px auto;
+     border: 4px solid blue;
+     border-radius: 10px;
+     width: 90%;
+     background-color: rgb(158, 242, 158);
+     color: rgb(62, 62, 255);
+     text-align: center;
+ }
+ 
+ 
+ .col img {
+ 
+     width: 100%;
+     height: 30%;
+ }
+ .button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    margin: 0px auto;
+    background-color: orange;
+    width: 90%;
+    line-height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Tablet Sytles */
+@media(min-width: 786px){
 
 #container {
-    background-color: rgb(158, 242, 158);
-    width: 60%;
-    margin: 20px auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    text-align: center;
+    width: 70%;
+}
+#upper{
+    padding: 20px;
+    display: inline-block;
+}
+#upper p{
+    font-size: 20px;
 }
 
-#container p {
+#upper h2 {
+    font-size: 30px;
+}
+
+#upper h3 {
+    font-size: 25px;
+    color: orange;
+}
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px){
+    nav {
+        color: black;
+        padding: 5px 0;
+    
+    }
+    
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+    nav li{
+        display:inline-block;
+        padding: 10px;
+        margin: 5px auto;
+        width: 20%;
+    }
+    
+    
+    nav a {
+        font-size: 20px;
+}
+header{
+    width: 95%;
+    margin: 10px auto;
+}
+
+
+header h1{
+    padding-top: 10px;
+    text-shadow:  2px 2px 4px orange
+}
+.banner img {
+    width: 70%;
+    height: 60%;
+    display: block;
     margin: 0 auto;
-    width: 80%;
-    margin-bottom: 20px;
+
+
 }
-#container ul{
-    list-style-type: none;
-    padding: 0;
+
+
+#container {
     text-align: center;
+    background-color: white;
+    width: 50%;
+    margin: 0px auto;
+    border: 5px solid rgb(0, 0, 127);
+    border-radius: 10px;
 }
-.col{
+#container img{
+    width:50%;
+}
+#upper{
     padding: 10px;
-    margin: 35px auto;
-    border: 2px solid black;
-    border-radius: 10px;
+    display: inline-block;
 }
 
-#lower{
-    margin: 20px auto;
+
+#upper img {
+    width: 80%;
+    margin: 10px auto;
+    height: 40%;
+}
+
+
+
+#lower {
     display: flex;
+    width: 95%;
+    flex-wrap: wrap;
 }
 
-h1, h2, h3 {
-    text-align: center;
-    margin: 0 auto;
+
+.col{
+   
+    width: 40%;
+    height: 40%;
 }
 
-p {
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
+
+
+
+.col img {
+
+    width: 100%;
+    height: 30%;
+}
+h1 {
+    font-size: 40px;
+}
+
+
+h2 {
+    font-size: 35px;
+}
+
+
+h3 {
+    font-size: 30px;
+}
+
+
+#upper p{
+    font-size: 20px;
+}
+
 }
